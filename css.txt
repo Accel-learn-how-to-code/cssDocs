@@ -13,3 +13,9 @@ letter-spacing: 5px // khoản cách từng chữ
 word-spacing: 10px //khoản cách từng từ
 line-height: 1.2 //khoản cách giữa các dòng
 text-shadow: x y color blur //đổ bóng cho chữ
+
+//Internal CSS: dùng thẻ style trong file html
+//External CSS: dùng css từ file bên ngoài - được khuyên dùng
+//Inline CSS: viết CSS trực tiếp trong thẻ hiện hành - hạn chế dùng
+
+//font-family: font1, font2, font3 - browser check từ trái sang và thực hiện cái nào hiện hữu đầu
