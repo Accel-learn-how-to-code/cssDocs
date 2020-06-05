@@ -1,0 +1,15 @@
+//CSS Selector
+
+//rgb(red, green, blue)
+//rgba(red, green, blue, alpha)
+
+color: #DDD
+text-align: center|left|right|justify
+text-decoration: none|underline|overline|line-through //chỉnh sửa design của text 
+(thường dùng để chỉnh text link)
+text-transform: uppercase|lowercase|capitalize (chữ đầu tiên từng từ in hoa)
+text-indent: 10px //lùi đầu dòng text
+letter-spacing: 5px // khoản cách từng chữ
+word-spacing: 10px //khoản cách từng từ
+line-height: 1.2 //khoản cách giữa các dòng
+text-shadow: x y color blur //đổ bóng cho chữ
