@@ -18,4 +18,53 @@ text-shadow: x y color blur //đổ bóng cho chữ
 //External CSS: dùng css từ file bên ngoài - được khuyên dùng
 //Inline CSS: viết CSS trực tiếp trong thẻ hiện hành - hạn chế dùng
 
-//font-family: font1, font2, font3 - browser check từ trái sang và thực hiện cái nào hiện hữu đầu
+//font-family: font1, font2, font3 - browser check từ trái sang
+ và thực hiện cái nào hiện hữu đầu
+
+//padding: khoảng cách từ border đến content
+//padding: top right botton left;
+//padding: top left-right bottom;
+//padding: top-bottom left-right;
+//padding: all;
+
+//margin: khoảng cách bên ngoài border (khoản cách các component với nhau)
+//margin: top right botton left;
+//margin: top left-right bottom;
+//margin: top-bottom left-right;
+//margin: all;
+
+syntax
+//border-width: 1px - chỉnh độ rộng border
+//border-styled: solid| dotted|dashed|.... - kiểu hiển thị của border
+//border-color: red - có thể thay đổi theo màu text
+
+shortHand
+//border: 1px solid red; (width - styled - color)
+
+Note
+//border-width: top right botton left;
+//border-width: top left-right bottom;
+//border-width: top-bottom left-right;
+//border-top-width: 1px
+//border-right-width: 1px
+.....
+
+//border-radius: 5px - dộ bo góc của border
+
+//backgroung-color: color;
+//backgroung-color: transparent;
+//backgroung-color: gradient;
+
+web: https://cssgradient.io
+
+abstract item: hình ảnh họa lặp đi lặp lại tạo họa tiết
+//background-size: 20%;
+//background-repeat: no-repeat; - ko cho lặp img
+
+//background-size: contain; - auto fix hình ảnh vào khung (hiển thị 100% img trong khung đó)
+//background-size: cover; - làm img bao trọn khung hình
+//background-position: x y| center;
+//background-attachment: fixed;
+
+
+
