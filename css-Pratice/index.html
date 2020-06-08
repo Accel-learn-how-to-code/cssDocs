@@ -44,25 +44,53 @@
             height: 50px;
         }
 
-        .image{
+        .image {
             background-image: url(./pic2..jpg);
             height: 200px;
             background-size: 50%;
             background-size: cover;
             background-position: top;
         }
-        .parallax{
+
+        .parallax {
             background-image: url(./pic2..jpg);
             height: 200px;
             background-size: 50%;
             background-size: cover;
             background-attachment: fixed;
         }
+        #linking{
+            color: white;
+        }
+        .link-box{
+            display: inline-block;
+            color: white;
+            background-color: blueviolet;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .link-box:link {
+            text-decoration: none;
+        }
+
+        .link-box:hover {
+            background-color: rebeccapurple;
+            color: red;
+            transition-duration: 0.5s;
+        }
+
+        .link-box:active {
+            color: rebeccapurple;
+        }
     </style>
 </head>
 
 <body>
     <h1>CSS Lesson</h1>
+    <a class="link-box" href="Link">Nope</a>
     <p class="item gradient">
         Lorem
     </p>

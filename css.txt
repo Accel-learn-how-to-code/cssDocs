@@ -66,5 +66,31 @@ abstract item: hình ảnh họa lặp đi lặp lại tạo họa tiết
 //background-position: x y| center;
 //background-attachment: fixed;
 
+Selector
+//a:link - default chỉ element chưa đc click bh
+//a:visited - đã đc click rồi
+//a:hover - trỏ chuột lên
+//a:active - click vào chưa thả ra
 
+Inline vs block
+//inline: là element có chiều rộng tương đương chiều rộng content - ko chỉnh đc margin top bottom, còn padding thì bth
+//block: chiếm 1 hàng
+
+CSS combinator
+//descendant selector (space)
+.list-1 .item: tìm trong list-1 những element con có class= item
+
+//child selector (>)
+.list-1 > .item: tìm trong list-1 những element con có class= item mà ko phải những element cháu
+
+//adjacent sibling selector (+)
+.list-1 .item-2 + .item: tìm trong list-1 element .item-2 và select 1 element 
+tiếp theo của .item-2 có class là .item
+
+//general sibling selector (~)
+.list-1 .item-2 + .item: tìm trong list-1 element .item-2 và select toàn bộ element 
+tiếp theo của .item-2 có class là .item
+
+Pseudo-classes: định nghĩa trạng thái của element
+important: ::after, ::before, :hover,.....
 
