@@ -94,3 +94,18 @@ tiếp theo của .item-2 có class là .item
 Pseudo-classes: định nghĩa trạng thái của element
 important: ::after, ::before, :hover,.....
 
+//layout: cách bố trí các components
+//component: là những cái có thể dùng đi dùng lại
+
+FLEX
+//display: flex; 
+//flex-direction: row - default| column; - chiều của flex
+
+//justify-content: flex-start*| flex-end |center| space-between
+|space-around|space-evenly; - căn chỉnh vị trí của item
+
+//align-items: flex-start | flex-end| center| baseline| stretch*; 
+- căn chỉnh item theo hướng vuông góc với flex direction
+
+//flex-basis: <length>; - thay đổi chiều rộng item theo chiều flex direction, áp dụng cho item bên trong container
+//flex-grow: <number>; - phân bổ chỗ trống còn thừa cho item, chỉ tác dụng khi container còn thừa chỗ tróng

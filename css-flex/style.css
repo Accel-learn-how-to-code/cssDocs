@@ -1,0 +1,17 @@
+.container{
+    background-color: #DDD;
+    color: white;
+    display: flex;
+}
+.child-1{
+    background-color: red;
+    flex-basis: 100px;
+}
+.child-2{
+    background-color: green;
+    flex-grow: 1;
+}
+.child-3{
+    background-color: blue;
+    flex-basis: 200px;
+}
