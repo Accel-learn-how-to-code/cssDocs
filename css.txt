@@ -112,3 +112,11 @@ FLEX
 //flex-shrink: 1*|<number>; - khi độ rộng element vượt quá container thì shrink sẽ chia lại cho đúng tỉ lệ
 công thức: flexBasis * (1 + shrinkFactor / sumScaledShrinkFactors * remainingFreeSpace)
 //order: 0*| <number>; - thay đổi thứ tự hiển thị các element trong container
+
+POSITION - thay đổi vị trí element
+//position: static* - đứng nguyên | 
+||relative - không thay đổi thuộc tính element cho đến khi truyền thuộc tính cho nó
+và ko làm thay đổi vị trí các element xung quanh 
+|| fixed - di chuyển element tương đối theo độ rộng trình duyệt
+|| absolute - di chuyển 1 cách tương đối so với parent element gần nhất có set thuộc tính relative
+|| sticky

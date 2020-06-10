@@ -34,9 +34,11 @@
 .weekly-items .view-count {
     font-size: 12px;
 }
-.image-list{
+
+.image-list {
     display: flex;
 }
+
 .image-list .album-cover {
     width: 128px;
     height: 128px;
@@ -56,18 +58,84 @@
     align-items: flex-end;
     padding: 10px;
 }
-.image-list .img-infor{
+
+.image-list .img-infor {
     padding: 0 10px;
     line-height: 1.4;
 }
-.image-list .img-infor .song-name{
 
-}
-.image-list .img-infor .singer-name{
+.image-list .img-infor .singer-name {
     font-weight: bold;
     font-size: 14px;
     color: rgb(124, 124, 124);
-} 
-.image-list .img-infor .img-view{
+}
+
+.image-list .img-infor .img-view {
     font-size: 13px;
-}   
+}
+
+.album-square {
+    width: 128px;
+    height: 128px;
+    background-image: url('./pic2.png');
+    background-size: cover;
+    background-position: top;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.album-square .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.album-square:hover .overlay {
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li {
+    padding: 8px 16px;
+}
+
+.menu li:hover{
+    background-color: rgb(82, 82, 82);
+    transition-duration: 0.2s;
+}
+.has-submenu {
+    position: relative;
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-weight: bold;
+    display: none;
+    left: 0;
+    top: 100%;
+}
