@@ -35,7 +35,7 @@ text-shadow: x y color blur //đổ bóng cho chữ
 
 syntax
 //border-width: 1px - chỉnh độ rộng border
-//border-styled: solid| dotted|dashed|.... - kiểu hiển thị của border
+//border-styled: solid| dotted| dashed|.... - kiểu hiển thị của border
 //border-color: red - có thể thay đổi theo màu text
 
 shortHand
@@ -109,3 +109,6 @@ FLEX
 
 //flex-basis: <length>; - thay đổi chiều rộng item theo chiều flex direction, áp dụng cho item bên trong container
 //flex-grow: <number>; - phân bổ chỗ trống còn thừa cho item, chỉ tác dụng khi container còn thừa chỗ tróng
+//flex-shrink: 1*|<number>; - khi độ rộng element vượt quá container thì shrink sẽ chia lại cho đúng tỉ lệ
+công thức: flexBasis * (1 + shrinkFactor / sumScaledShrinkFactors * remainingFreeSpace)
+//order: 0*| <number>; - thay đổi thứ tự hiển thị các element trong container

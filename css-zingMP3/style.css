@@ -1,0 +1,73 @@
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.weekly-items {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #EEE;
+    max-width: 40vh;
+}
+
+.weekly-items .number {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.weekly-items .infor {
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.weekly-items.sont-title {
+    margin-bottom: 8px;
+}
+
+.weekly-items .singer {
+    font-size: 13px;
+    color: #999;
+}
+
+.weekly-items .view-count {
+    font-size: 12px;
+}
+.image-list{
+    display: flex;
+}
+.image-list .album-cover {
+    width: 128px;
+    height: 128px;
+    background-image: url('./pic1.jpg');
+    background-size: cover;
+    background-position: top;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.image-list .album-cover .overlay {
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.46262254901960786) 0%, rgba(255, 255, 255, 0) 73%);
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+.image-list .img-infor{
+    padding: 0 10px;
+    line-height: 1.4;
+}
+.image-list .img-infor .song-name{
+
+}
+.image-list .img-infor .singer-name{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(124, 124, 124);
+} 
+.image-list .img-infor .img-view{
+    font-size: 13px;
+}   
