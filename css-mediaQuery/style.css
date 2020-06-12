@@ -1,0 +1,17 @@
+.item{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: tomato;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+@media (min-width: 600px){
+    .container{
+        display: flex;
+    }
+    .item{
+        flex-grow: 1;
+    }
+}

@@ -94,9 +94,18 @@
     opacity: 0;
 }
 
+.album-square .overlay i {
+    transform: scale(0);
+}
+
+.album-square:hover .overlay i{
+    transform: scale(1);
+    transition-duration: 1s;
+}
+
 .album-square:hover .overlay {
     opacity: 1;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
 
 .menu {
@@ -106,7 +115,7 @@
     background-color: black;
 }
 
-.menu a{
+.menu a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -116,10 +125,11 @@
     padding: 8px 16px;
 }
 
-.menu li:hover{
+.menu li:hover {
     background-color: rgb(82, 82, 82);
     transition-duration: 0.2s;
 }
+
 .has-submenu {
     position: relative;
 }

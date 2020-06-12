@@ -1,5 +1,3 @@
-//CSS Selector
-
 //rgb(red, green, blue)
 //rgba(red, green, blue, alpha)
 
@@ -120,3 +118,64 @@ và ko làm thay đổi vị trí các element xung quanh
 || fixed - di chuyển element tương đối theo độ rộng trình duyệt
 || absolute - di chuyển 1 cách tương đối so với parent element gần nhất có set thuộc tính relative
 || sticky
+
+FLOAT: làm nổi element - specifies how an element should float.
+//clear: left; - ko muốn thằng float nào nằm bên trái
+//cách clear float
+.wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+CSS SELECTOR
+a[target]{
+	color: red;
+}
+
+--đổi thẻ a có value target thành màu đỏ
+input[type="text"]{
+            border-color: tomato;
+}
+--đổi thẻ input có type="text" thành màu đỏ
+
+//CSS Specificity: css cụ thể =))
+important > inline css > id > classes
+Có 1 quy tắc nên nhớ trong viết CSS là hạn chế tối đa dùng các selector khác thay vào đó cố gắng sử dụng class selector. 
+Điều này giúp viết code css ít bị lỗi hơn.
+
+
+CSS 2D Transform (visit codrop)
+//translate - dịch chuyển tọa độ
+//rotate - xoay element
+//scale - phóng to thu nhỏ
+//skew - biến dạng méo đi
+//matrix - 
+
+CSS transition
+//transition-delay
+//transition-duration
+//transition property
+//transition-timing-function
+
+transition: background-color: 0.5s;
+
+mediaQuey=> mobile first
+
+GRID: làm layout cho toàn bộ trang
+.wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.header, .footer{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1/3;
+}
+
+px
+
+em: 1em = font size của parent - thay đổi dựa theo parent
+
+rem 1 rem = font size của trình duyệt- đổi dựa theo trình duyệt

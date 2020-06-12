@@ -1,0 +1,28 @@
+.header{
+    height: 100px;
+    background-color: tomato;
+}
+
+.sidebar{
+    width: 20%;
+    float: left;
+    background-color: thistle;
+}
+
+.main{
+    background-color: violet;
+    margin-left: 20%;
+}
+
+.footer{
+    height: 100px;
+    background-color: teal;
+}
+
+.wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
